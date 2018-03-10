@@ -36,7 +36,8 @@ Flash the Arduino sketch to your board using the Serial adapter. Then connect so
 You can also manually control the LEDs using the button. Pressing it should switch the LEDs on/off, holding it enables you to dim them.
 
 **Common errors (at least the ones I've encountered):**
-- LED flashing red/orange: error with the wireless connection to your gateway. Try decreasing the distance or bending the antenna. Also make sure your gateway+server is working.
+LED flashing red/orange:
+error with the wireless connection to your gateway. Try decreasing the distance or bending the antenna. Also make sure your gateway+server is working.
 ### Step 4: Printing the case
 Download the provided STL files for the case, place the bottom part next to the top part in your slicer (rotate the top 180° around Y-axis), and print them using a 3D printer. I've used my Prusa MK3, blue and white PLA filament and 0.15mm layer height.
 
