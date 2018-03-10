@@ -1,0 +1,20 @@
+﻿Designator;Quantity;Type;Part number/value;Price/part;Price (total)
+C1,C2,C3;3;1206 SMD Ceramic capacitor;100nF;0,008 €;0,02 €
+C4;1;6032 SMD Tantalum capacitor;22µF, 25V;0,010 €;0,01 €
+D1;1;5mm Bi-Color LED;red/green;0,020 €;0,02 €
+J2;1;DC Barrel Jack;5.5x2.1mm;0,051 €;0,05 €
+J3;1;5.08mm Screw terminal;2P;0,054 €;0,05 €
+P1;1;Male 2.54mm header;4P;0,005 €;0,01 €
+PROG;1;SMD male 1.25mm JST connector;8P;0,093 €;0,09 €
+Q1;1;Mosfet;IRLML2502;0,034 €;0,03 €
+R1,R3,R6,R7,R2;5;1206 SMD resistor;10kΩ, 1%;0,003 €;0,02 €
+R4;1;1206 SMD resistor;100Ω, 1%;0,003 €;0,00 €
+R5;1;1206 SMD resistor;300Ω, 1%;0,003 €;0,00 €
+S1;1;Tactile button;12mm;0,018 €;0,02 €
+U1;1;Microcontroller;ATmega 328p-AU;1,088 €;1,09 €
+U2;1;RF module;RFM69HW 868MHz;1,670 €;1,67 €
+U3;1;Voltage regulator;AMS1117-3.3;0,028 €;0,03 €
+-;2;Self-tapping screw;M2.3 x 8mm;0,031 €;0,06 €
+-;1;PCB;25x50mm;0,314 €;0,31 €
+-;1;3D printed case;10.4g PLA filament;0,220 €;0,22 €
+;;;;Total:;3,71 €
