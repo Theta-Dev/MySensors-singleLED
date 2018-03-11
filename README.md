@@ -1,5 +1,14 @@
 # MySensors-singleLED
-12V/2A 1-channel LED wireless switch for MySensors
+12V/2.5A/30W 1-channel LED switch for MySensors
+
+Information for those who read this on openhardware.io:
+Please visit the github repo to download the files since openhardware doesn't support .zip, .json and .f3d files.
+## Features
+- Switch/Dim any 12V LED light over your MySensors network
+- Maximum current: 2.5A
+- Manual control via pushbutton
+- Optional expansion header for external switches/potentiometers (firmware implementation coming soon)
+- Tiny (56x31x16mm) and lightweight (19g)
 
 ## How to build
 ### Step 1: PCB assembly
@@ -11,7 +20,7 @@ Then continue with the ATmega 328p microcontroller, the two 100nF capacitors C1/
 
 Double check your solder connections, then continue with step 2
 ### Step 2: Programming and testing the microcontroller
-To program your ATmega you will need adapter cables for ICSP and Serial. Solder them according to [these] instructions. You'll also need to add the barebone ATmega328p to the board definitions of your Arduino IDE.
+To program your ATmega you will need adapter cables for ICSP and Serial. Instructions on how to solder these can be found on my website (https://thdev.org/?Projects___misc___micro_JST). You'll also need to add the barebone ATmega328p to the board definitions of your Arduino IDE.
 
 Plug the ICSP adapter into your board and connect a 3.3V FTDI adapter to it. Then connect the FTDI adapter to your computer via USB.
 Select "ATmega328p (8 MHz internal clock)" from the Board menu and make sure the correct serial port is selected. Then select Tools > Burn Bootloader and wait for the process to complete.
