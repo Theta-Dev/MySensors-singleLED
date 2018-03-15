@@ -12,7 +12,7 @@ Please visit the github repo to download the files since openhardware doesn't su
 
 ## How to build
 ### Step 1: PCB assembly
-Download the Gerber files for the PCB from this repository. Get the PCB manufactured by your favourite boardhouse. I chose AllPCB who sent me 12 50x100mm boards (green soldermask, HASL with lead, 1.2mm thickness) for about 15€.
+Download the Gerber files for the PCB from this repository. Get the PCB manufactured by your favourite boardhouse (Size: 25x50mm). I chose AllPCB who sent me 12 50x100mm boards (green soldermask, HASL with lead, 1.2mm thickness) for about 15€.
 Note that you will save some cost if you order a larger board with multiple designs placed next to each other like I did.
 
 Prepare the electronics components listed on the BOM. Start by soldering the male 8pin JST connector to the side of the board. Be careful not to melt the plastic with your iron. Also don't apply solder to the top part of the contact blades since that will lead to bridges.
