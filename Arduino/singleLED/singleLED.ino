@@ -1,8 +1,8 @@
-// Software for the MySensors singleLED wireless LED controller
-// project by ThetaDev (thdev.org)
-// licensed under the CC-BY-SA license
-//
-// Credits to LastSamurai for the LED fading algorithm
+-// Software for the MySensors singleLED wireless LED controller
+-// project by ThetaDev (thdev.org)
+-// licensed under the CC-BY-SA license
+-//
+-// Credits to LastSamurai for the LED fading algorithm
 
 #include <OneButton.h>
 
@@ -33,6 +33,7 @@
 
 #include <MySensors.h>
 
+#define SENSOR_ID 1
 #define FADE_DELAY 6  // Delay in ms for each percentage fade up/down (10ms = 1s full-range dim)
 #define LED_PIN 9
 
@@ -49,13 +50,13 @@ void setup()
   bt1.attachLongPressStop(pstop1);
   
   // Pull the gateway's current dim level - restore light level upon sendor node power-up
-  request(0, V_DIMMER);
+  request(SENSOR_ID, V_DIMMER);
 }
 
 void presentation()
 {
   // Register the LED Dimmable Light with the gateway
-  present(0, S_DIMMER);
+  present(SENSOR_ID, S_DIMMER);
 
   sendSketchInfo(SN, SV);
 }
@@ -96,8 +97,8 @@ void setLED(byte level)
     delay(FADE_DELAY);
   }
   
-  MyMessage dimmerMsg(0, V_DIMMER);
-  MyMessage lightMsg(0, V_LIGHT);
+  MyMessage dimmerMsg(SENSOR_ID, V_DIMMER);
+  MyMessage lightMsg(SENSOR_ID, V_LIGHT);
   
   send(lightMsg.set(ledLevel > 0));
   send(dimmerMsg.set(ledLevel));
