@@ -1,8 +1,8 @@
--// Software for the MySensors singleLED wireless LED controller
--// project by ThetaDev (thdev.org)
--// licensed under the CC-BY-SA license
--//
--// Credits to LastSamurai for the LED fading algorithm
+// Software for the MySensors singleLED wireless LED controller
+// project by ThetaDev (thdev.org)
+// licensed under the CC-BY-SA license
+//
+// Credits to LastSamurai for the LED fading algorithm
 
 #include <OneButton.h>
 
